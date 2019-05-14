@@ -17,7 +17,6 @@
 				"viableCombinations": ["XX",     "XY"],
 				"genders": ["FEMALE", "MALE"]
 			}
-		},
-		"genes": {"promoter": "", "terminator": ""}
+		}
 	}
 }

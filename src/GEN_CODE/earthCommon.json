@@ -1,7 +1,6 @@
 {
 	"meta": {
 		"name": "earthCommon",
-		"type": "GEN_CODE"
 	},
 	"data": {
 		"nucleicAcidStorage": {

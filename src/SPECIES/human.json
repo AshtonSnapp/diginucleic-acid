@@ -1,0 +1,22 @@
+{
+	"meta": {
+		"name": "human",
+		"code": "earthCommon"
+	},
+	"data": {
+		"chromosomes": {
+			"copiesNormal": 2,
+			"autosomes": {
+				"count": 22,
+				"geneCounts": [2000, 1300, 1000, 1000, 900, 1000, 900, 700, 800, 700, 1300, 1100, 300, 800, 600, 800, 1200, 200, 1500, 500, 200, 500]
+			},
+			"allosomes": {
+				"count": [1, 2],
+				"X": [800],
+				"Y": [50],
+				"viableCombinations": ["XX",     "XY"],
+				"genders": ["FEMALE", "MALE"]
+			}
+		}
+	}
+}

@@ -36,7 +36,16 @@
 			"Alanine": ["GCU", "GCC", "GCA", "GCG"],
 			"Tyrosine": ["UAU", "UAC"],
 			"Stop": ["UAA", "UAG", "UGA"],
-			"Histidine": [],
+			"Histidine": ["CAU", "CAC"],
+			"Glutamine": ["CAA", "CAG"],
+			"Asparagine": ["AAU", "AAC"],
+			"Lysine": ["AAA", "AAG"],
+			"Aspartate": ["GAU", "GAC"],
+			"Glutamate": ["GAA", "GAG"],
+			"Cysteine": ["UGU", "UGC"],
+			"Tryptophan": ["UGG"],
+			"Arginine": ["CGU", "CGC", "CGA", "CGG", "AGA", "AGG"],
+			"Glycine": ["GGU", "GGC", "GGA", "GGG"]
 		}
 	}
 }

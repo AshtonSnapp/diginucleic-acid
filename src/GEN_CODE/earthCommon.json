@@ -1,0 +1,42 @@
+{
+	"meta": {
+		"name": "earthCommon",
+		"type": "GEN_CODE"
+	},
+	"data": {
+		"nucleicAcidStorage": {
+			"base": "deoxyribose",
+			"strands": 2,
+			"nucleotides": {
+				"Adenine": ["A", 00],
+				"Guanine": ["G", 01],
+				"Thymine": ["T", 10],
+				"Cytosine": ["C", 11]
+			}
+		},
+		"nucleicAcidTransport": {
+			"base": "ribose",
+			"strands": 1,
+			"nucleotides": {
+				"Adenine": ["A", 00],
+				"Guanine": ["G", 01],
+				"Uracil": ["U", 10],
+				"Cytosine": ["C", 11]
+			}
+		},
+		"aminoAcids": {
+			"Phenylalanine": ["UUU", "UUC"],
+			"Leucine": ["UUA", "UUG", "CUU", "CUC", "CUA", "CUG"],
+			"Isoleucine": ["AUU", "AUC", "AUA"],
+			"Methionine": ["AUG", "START"],
+			"Valine": ["GUU", "GUC", "GUA", "GUG"],
+			"Serine": ["UCU", "UCC", "UCA", "UCG", "AGU", "AGC"],
+			"Proline": ["CCU", "CCC", "CCA", "CCG"],
+			"Threonine": ["ACU", "ACC", "ACA", "ACG"],
+			"Alanine": ["GCU", "GCC", "GCA", "GCG"],
+			"Tyrosine": ["UAU", "UAC"],
+			"Stop": ["UAA", "UAG", "UGA"],
+			"Histidine": [],
+		}
+	}
+}
